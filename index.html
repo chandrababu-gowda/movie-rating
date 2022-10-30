@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,12 +8,24 @@
     <link rel="stylesheet" href="style.css">
     <title>Movie Rating</title>
 </head>
+
 <body>
-    <h1>Movie Rating</h1>
-    <input type="text" name="" id="enteredName">
-    <button type="submit" id="submitBtn">Get</button>
-    <div class="image"></div>
-    <div class="movie-name"></div>
+    <section class="section section--1 section--search">
+        <div class="container">
+            <div class="searchBar row">
+                <input class="col" type="text" id="enteredName" placeholder="Enter the name">
+                <button class="col" type="submit" id="submitBtn">Get</button>
+            </div>
+        </div>
+    </section>
+    <section class="section section--2  ">
+        <div class="container row section--display">
+            <div class="col image"></div>
+            <div class="col movie-name"></div>
+            <div class="col ratings"></div>
+        </div>
+    </section>
     <script src="index.js"></script>
 </body>
+
 </html>
